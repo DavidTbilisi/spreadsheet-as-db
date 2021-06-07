@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <script src="spreadsheet.js"></script>
+
+</head>
+<body>
+    <h1>Open console by pressing <code>F12</code></h1>
+    <script>
+let ss = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS5WknWgQYjizFD7MyIg_J69Iy8TtFKj--p9TqLJLxa9M2LXzviyEmjLGQGVWK7iH9aX7zhQeJZAoFB/pub?gid=0&single=true&output=csv"
+let sp = new Spreadsheet(ss,['person', 'birthday', 'profession']);
+console.log(sp.json())
+
+
+    </script>
+
+</body>
+</html>
