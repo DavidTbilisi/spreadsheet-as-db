@@ -1,10 +1,13 @@
 {
   "name": "spreadsheet-as-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrive data from spreadsheet",
   "main": "index.js",
- 
-  "keywords": ["google", "spreadsheet", "JSON"],
+  "keywords": [
+    "google",
+    "spreadsheet",
+    "JSON"
+  ],
   "author": "David Chincharashvili",
   "license": "ISC"
 }
