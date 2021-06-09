@@ -41,6 +41,21 @@ class Spreadsheet {
         return return_text;
     }
 
+    array(){
+      var return_array = [];
+      this.data.then((response)=>{
+          
+          let rows = response.data.split("\n")
+          
+          rows.forEach(row => {
+                let oneRow = row.split(",");
+                return_array.push(oneRow);
+        });
+
+      })
+      return return_array;
+    }
+
     setTitles(titles){
         this.titles = titles
     }

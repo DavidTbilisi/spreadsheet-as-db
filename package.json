@@ -9,5 +9,9 @@
     "JSON"
   ],
   "author": "David Chincharashvili",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidTbilisi/spreadsheet-as-db.git"
+  }
 }
