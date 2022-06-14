@@ -10,6 +10,9 @@
   ],
   "author": "David Chincharashvili",
   "license": "ISC",
+  "dependencies": {
+    "axios":"^0.27.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidTbilisi/spreadsheet-as-db.git"
